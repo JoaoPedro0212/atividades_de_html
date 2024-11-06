@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 13</title>
+</head>
+<body>
+    <form action="/enviar" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+        
+        <label for="opcoes">Escolha uma opção de envio:</label>
+        <select id="opcoes" name="opcoes">
+            <option value="opcao1">Telegram</option>
+            <option value="opcao2">e-mail</option>
+            <option value="opcao3">SMS</option>
+        </select><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
